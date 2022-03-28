@@ -71,10 +71,11 @@ public class MainActivity extends AppCompatActivity {
                                // progressDialog.dismiss();
                                // Toast.makeText(MainActivity.this, volleyError.toString(), Toast.LENGTH_SHORT).show();
                                 if (!nombre.getText().toString().isEmpty()&&!direccion.getText().toString().isEmpty()&&!pedidooo.getText().toString().isEmpty()){
-                                    error();
+                                    MessageDialog2();
                                 }
                                 else{
-                                    MessageDialog2();
+                                    error();
+
                                 }
 
 
